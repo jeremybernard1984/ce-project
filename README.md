@@ -1,2 +1,4 @@
-# ce-project
-docker + Sf3.3 + vuejs experience
+norsys_ce
+=========
+
+A Symfony project created on December 24, 2017, 3:12 pm.
