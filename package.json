@@ -1,0 +1,11 @@
+{
+  "name": "ce-project",
+  "version": "1.0.0",
+  "description": "project vue sf3",
+  "main": "index.js",
+  "repository": "https://github.com/jeremybernard1984/ce-project.git",
+  "author": "jeremy <jbernard@norsys.fr>",
+  "license": "MIT",
+  "dev": "NODE_ENV=dev webpack --config ./app/config/webpack.conf.js --devtool source-map --debug --watch --display-error-details",
+  "build": "NODE_ENV=production webpack --config ./app/config/webpack.conf.js --progress --colors --optimize-minimize"
+}

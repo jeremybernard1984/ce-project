@@ -2,7 +2,7 @@ version: '2'
 
 services:
     postgres:
-        image: postgres:latest
+        image: postgres:9.6
         ports:
             - ${POSTGRES_PORT}:5432
         environment:
